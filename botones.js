@@ -1,3 +1,8 @@
+const boton4=document.querySelector('.logo')
+boton4.addEventListener('click',() =>{
+    window.location.assign("index.html")
+})
+
 const boton3=document.querySelector('.link-3')
 boton3.addEventListener('click',()=>{
     window.location.assign("https://github.com/xYoikerx/S.D.E.-System-Developmen-Enterprise-.git")
