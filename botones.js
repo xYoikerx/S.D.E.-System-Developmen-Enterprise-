@@ -1,3 +1,9 @@
+const ham = document.querySelector('.ham');
+const enlaces = document.querySelector('.navbar2');
+ham.addEventListener('click', () => {
+    enlaces.classList.toggle('activado');
+});
+
 const boton4=document.querySelector('.logo')
 boton4.addEventListener('click',() =>{
     window.location.assign("index.html")
