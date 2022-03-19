@@ -7,7 +7,15 @@ header{
     display: flex;
     height:100px;
     justify-content:space-between;
-    background-color:white
+    background-color:white;
+    opacity: 0.9;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
 }
 .logo{
     height:100%;
@@ -65,9 +73,11 @@ body {
 	background-color: #fff;
 	width: 90%;
 	max-width: 1200px;
-	margin: 80px auto;
+	margin: 50px auto;
 	padding: 40px;
 	border-radius: 10px;
+    position: relative;
+    z-index: 99;
 }
 
 .main {
@@ -109,14 +119,14 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    z-index: 10;
+    z-index: 100;
     position:absolute;
     background-color:white;
 }
 .navbar2 li{
     width: 100%;
     height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 10px;
     margin-top: 5px;
 }
@@ -196,6 +206,7 @@ body {
 
     .contenedor{
         margin-top: 5%;
+        width: 75%;
     }
     .main{
         flex-direction: column;
@@ -239,6 +250,7 @@ body {
     }
     .contenedor{
         margin-top: 5%;
+        width:75%
     }
     .main{
         flex-direction: column;
