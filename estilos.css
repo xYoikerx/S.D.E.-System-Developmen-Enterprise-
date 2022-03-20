@@ -259,8 +259,8 @@ body {
     .contenedor-img{
         width: 400px;
         object-fit: none;
-        max-width: 100%;
-        min-width: 80%;
+        max-width: 400px;
+        min-width: 100px;
         margin:10px auto;
     }
     .contenedor-img img{
@@ -280,4 +280,13 @@ body {
         font-size: 12px;
         line-height: 1.5;
     }
+
+    .ham{
+        display:block;
+        cursor:pointer;
+        position: absolute; 
+        top:20px;
+        right:25px;
+        transition: 0.2s  0.1s;   
+    }  
 }
